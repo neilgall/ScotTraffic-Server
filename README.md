@@ -7,3 +7,5 @@ It uses
 The various API keys and login credentials needed to make these work have been redacted from the source.
 Yes, I know they shouldn't be in the source. To get this fully working you'll need to contact the various
 providers and acquire your own. I've put comments in the relevant places.
+
+The iOS client app is available [here](https://github.com/neilgall/ScotTraffic-Swift)
