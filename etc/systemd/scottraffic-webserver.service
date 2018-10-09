@@ -1,0 +1,15 @@
+Unit]
+Description=ScotTraffic Internal WebServer
+
+[Service]
+Type=simple
+User=scottraffic
+PermissionsStartOnly=true
+ExecStartPre=-/usr/bin/mkdir /var/run/scottraffic
+ExecStartPre=/usr/bin/chown scottraffic:scottraffic /var/run/scottraffic
+ExecStart=/home/scottraffic/bin/WebServer --address 127.0.0.1 --port 3000 --access-log /var/run/scottraffic/access.log --error-log /var/run/scottraffic/error.log
+PIDFile=/var/run/scottraffic/webserver.pid
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

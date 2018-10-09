@@ -1,0 +1,13 @@
+*.pyc
+.DS_Store
+.cabal-sandbox
+cabal.sandbox.config
+dist
+bin/*Tool
+bin/WebServer
+data
+web
+support/Site Folder
+support/support.fwbackup
+*.pem
+.stack-work

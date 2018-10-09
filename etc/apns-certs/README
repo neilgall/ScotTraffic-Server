@@ -1,0 +1,3 @@
+The build script expects the development and production APNS certificates files here:
+* dev.p12
+* production.p12

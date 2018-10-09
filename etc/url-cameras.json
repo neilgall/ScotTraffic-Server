@@ -1,0 +1,84 @@
+[
+  {
+    "enabled" : true,
+    "filename" : "braemar1.jpg",
+    "road" : "A93",
+    "name" : "Braemar Snow Gate",
+    "latitude" : 57.00449,
+    "longitude" : -3.39559,
+    "url" : "http://www.deesidecomputers.com/cam/image.jpg"
+  },
+  {
+    "enabled" : false,
+    "filename" : "inverurie1.jpg",
+    "road" : "B9170",
+    "name" : "Inverurie Town Hall",
+    "latitude" : 57.284380555556,
+    "longitude" : -2.3743966666666996,
+    "url" : "http://81.149.11.235/axis-cgi/jpg/image.cgi?camera=1&resolution=640x360"
+  },
+  {
+    "enabled" : true,
+    "filename" : "banchory1.jpg",
+    "road" : "A93",
+    "name" : "Banchory Town Hall",
+    "latitude" : 57.052403055556,
+    "longitude" : -2.4824911111111,
+    "url" : "http://81.149.11.202/axis-cgi/jpg/image.cgi?camera=1&resolution=640x360"
+  },
+  {
+    "enabled" : false,
+    "filename" : "linlithgow1.jpg",
+    "road" : "A803",
+    "name" : "Linlithgow Cross",
+    "latitude" : 55.9770475,
+    "longitude" : -3.5994402777778,
+    "url" : "http://linlithgow.axiscam.net/axis-cgi/jpg/image.cgi?camera=1&resolution=640x480"
+  },
+  {
+    "enabled" : true,
+    "filename" : "aberdeenbeach.jpg",
+    "road" : "Esplanade",
+    "name" : "Aberdeen Beach",
+    "direction" : "South",
+    "latitude" : 57.155145,
+    "longitude" : -2.079512,
+    "url" : "http://www.aberdeencity.gov.uk/web/images/webcam/beach.jpg"
+  },
+  {
+    "enabled": true,
+    "filename": "glendye.jpg",
+    "road": "B974",
+    "name": "Cairn o' Mount Snow Gate",
+    "latitude": 56.96276,
+    "longitude": -2.5761446,
+    "url": "http://www.deesidecomputers.com/GlenDye/image.jpg"
+  },
+  {
+    "enabled": false,
+    "filename": "georgesquare.jpg",
+    "road": "",
+    "name": "George Square",
+    "latitude": 55.861161,
+    "longitude": -4.250178,
+    "url": "https://www.glasgow.gov.uk/webcam/fullsize3.jpg"
+  },
+  {
+    "enabled": false,
+    "filename": "arrangoatfell.jpg",
+    "road": "A841",
+    "name": "Goat Fell, Arran",
+    "latitude": 55.57731,
+    "longitude": -5.14777,
+    "url": "https://www.millerstewart.com/webcams/ArranFerry/arranFerry.jpg"
+  },
+  {
+    "enabled": false,
+    "filename": "arranferry.jpg",
+    "road": "A841",
+    "name": "Brodick Ferry Terminal",
+    "latitude": 55.57731,
+    "longitude": -5.14777,
+    "url": "https://www.millerstewart.com/webcams/GoatFell/arranGoatFell.jpg"
+  }
+]

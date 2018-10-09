@@ -1,0 +1,23 @@
+# ScotTraffic update crontab
+
+# Update Safety Cameras once per week
+5 2 * * 7 $HOME/bin/SafetyCameraTool
+
+# Download Safety Camera location images, and prune old 
+55 0 * * 7 $HOME/bin/WebContentTool --web-dir=/var/www/scottraffic --safetyCameraImages --pruneSafetyCameraImages
+
+# Update Traffic Cameras and Static Content every five minutes
+0,5,10,15,20,25,30,35,40,45,50,55 * * * * $HOME/bin/TrafficCameraTool
+1,6,11,16,21,26,31,36,41,46,51,56 * * * * $HOME/bin/WebContentTool --web-dir /var/www/scottraffic --trafficCameraImages
+
+# Update Weather once an hour
+0 * * * * $HOME/bin/WeatherTool
+
+# Update RSS feeds twice an hour
+*/30 * * * * $HOME/bin/IncidentsTool
+
+# Update Bridges six times an hour
+*/10 * * * * $HOME/bin/BridgeTool
+
+# Update static JSON every five minutes
+2,7,12,17,22,27,32,37,42,47,52,57 * * * * $HOME/bin/WebContentTool --web-dir /var/www/scottraffic --generateWebJSON

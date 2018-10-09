@@ -1,0 +1,54 @@
+{
+  "city": "Glasgow",
+  "items": [
+    {
+      "identifier": "oswaldstreet",
+      "name": "Oswald Street",
+      "spaces": 550,
+      "lon": -4.2597180000000003,
+      "lat": 55.857568999999998
+    },
+    {
+      "identifier": "mitchellstreet",
+      "name": "Mitchell Street",
+      "spaces": 230,
+      "lon": -4.2557590000000003,
+      "lat": 55.859884999999998
+    },
+    {
+      "identifier": "glasshouse",
+      "name": "The Glasshouse",
+      "spaces": 545,
+      "lon": -4.24894,
+      "lat": 55.85857
+    },
+    {
+      "identifier": "georgestreet",
+      "name": "George Street",
+      "spaces": 230,
+      "lon": -4.24525,
+      "lat": 55.86141
+    },
+    {
+      "identifier": "ingramstreet",
+      "name": "Ingram Street",
+      "spaces": 35,
+      "lon": -4.24469,
+      "lat": 55.85934
+    },
+    {
+      "identifier": "georgestreet",
+      "name": "George Street",
+      "spaces": 230,
+      "lon": -4.24525,
+      "lat": 55.86141
+    },
+    {
+      "identifier": "kingstreet",
+      "name": "King Street",
+      "spaces": 660,
+      "lon": -4.246937,
+      "lat": 55.855645
+    }
+  ]
+}
